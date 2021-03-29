@@ -1,0 +1,22 @@
+@charset=UTF-8;
+body{background-color: rgb(17, 13, 49); height: 100%; width: 100%; text-align:center; }
+#t{max-width: 2500px; max-height:1500px;}
+#real{max-width: 2500px; height: 140px;}
+#yolo{max-width: 2500px; height: 300px;}
+#life{max-width: 2500px; height: 140px;}
+#real2{position:absolute; left:13%}
+#yolo2{position:absolute; left:33%}
+#life2{position:absolute; left:53%}
+.real{
+	width:400px;
+	height:170px;
+}
+.yolo{
+	padding-left:90px;
+	width:300px;
+	height:350px;
+}
+.life{
+	width:400px;
+	height:170px;
+}

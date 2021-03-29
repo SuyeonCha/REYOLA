@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>개발자 or 욜로족 소개</title>
+<link href="base_css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<center>
+		<div id="t">
+			<div id="menu">
+				<div class="btn-group">
+					<button class="button">개발소개</button>
+					<button class="button">여행지추천</button>
+					<button class="button">욜로족이란</button>
+					<button class="button">취미공유</button>
+				</div>			</div>
+			<div id="logo">로고</div>
+			<div id="content">
+				내용
+			</div>
+		</div>
+	</center>
+</body>
+</html>

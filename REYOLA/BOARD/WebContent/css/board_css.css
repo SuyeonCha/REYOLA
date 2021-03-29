@@ -1,0 +1,4 @@
+@charset=UTF-8;
+body{height: 100%; width: 100%; text-align:center; }
+#logo{height:140px; width:auto;}
+#content{ max-width: 2500px; height: 500px; padding:50px;}

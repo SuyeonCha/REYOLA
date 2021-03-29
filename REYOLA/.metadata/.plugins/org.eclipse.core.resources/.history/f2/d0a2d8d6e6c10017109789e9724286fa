@@ -1,0 +1,9 @@
+@charset=UTF-8;
+body{background-color: rgb(30, 26, 108); height: 100%; width: 100%;}
+#t{max-width: 2500px; max-height:1500px;}
+#real{max-width: 2500px; height: 200px;}
+#yolo{max-width: 2500px; height: 200px;}
+#life{max-width: 2500px; height: 200px;}
+#real2{position:absolute; left:13%}
+#yolo2{position:absolute; left:33%}
+#life2{position:absolute; left:53%}

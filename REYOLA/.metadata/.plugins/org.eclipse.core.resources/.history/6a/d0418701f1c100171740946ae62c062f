@@ -1,0 +1,23 @@
+@charset=UTF-8;
+body{background-color: rgb(17, 13, 49); height: 100%; width: 100%; text-align:center; color:white;}
+.btn-group .button {
+	align:right;
+    color: white;
+    padding: 5px 5px;
+    background-color: rgb(17, 13, 49);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    height: 40px;
+}
+
+.btn-group .button:hover {
+    background-color: #fffff;
+}
+#t{border:3px solid #ff0000; max-width: 2500px; max-height:1500px;}
+#menu{border:3px solid #73AD21; max-width: 2500px; height: 80px;}
+#logo{border:3px solid #73AD21; max-width: 2500px; height: 100px;}
+#content{border:3px solid #73AD21; max-width: 2500px; height: 500px; }

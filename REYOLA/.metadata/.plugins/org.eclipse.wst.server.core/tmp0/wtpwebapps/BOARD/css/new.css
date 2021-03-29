@@ -1,0 +1,107 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.center {
+    margin: 70px;
+    border: 3px solid green;
+    padding: 20px;
+
+}
+
+tr{
+    border: 2px solid yellow;
+} 
+
+td{
+    border: 0px solid pink;
+    padding: 3px;
+    line-height: 160%;
+} 
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #002a68;
+}
+a:hover{
+    color: #0d6dff;
+}
+ul{
+    list-style-type:circle;
+}
+
+
+.di{
+    transition: all .2s ease-in-out;
+    position: absolute; text-align:center; 
+    padding: 30px;font-weight:bold;
+    /* border:1px solid #0000ff; */
+}
+.di a:link{
+    color:#FFBB00;
+    
+}
+.di a:visited{
+    color:#FFE400;
+}
+.di:hover{
+    transform: scale(1.1);
+}
+.white_content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    z-index:6;
+}
+.white_content:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.white_content > div {
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	width: 70%;
+	height: 50%;
+	/* padding: 16px; */
+	border: 16px solid orange;
+	background-color: white;
+    overflow: auto;	
+    
+}
+
+.tb{
+    position:absolute; text-align:center; 
+}
+
+.tbd{
+
+}
+
+
+
+    input[type=button] {
+        -webkit-border-radius: 9;
+        -moz-border-radius: 9;
+        border-radius: 9px;
+        font-family: 'Hanna', serif;
+        color: #3c3c3c;
+        font-size: 24px;
+        background: #ffcb2e;
+        padding: 12px 22px 12px 22px;
+        text-decoration: none;
+        border: 0;
+        outline: 0;
+    }
+    
+    input[type=button]:hover {
+        background: #ffe957;
+        text-decoration: none;
+    }

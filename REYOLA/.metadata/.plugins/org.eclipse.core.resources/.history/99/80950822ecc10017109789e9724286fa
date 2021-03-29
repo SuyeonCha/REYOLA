@@ -1,0 +1,7 @@
+@charset=UTF-8;
+body{background-color: rgb(17, 13, 49); height: 100%; width: 100%; text-align:center; color:white;}
+
+#t{border:3px solid #ff0000; max-width: 2500px; max-height:1500px;}
+#menu{border:3px solid #73AD21; max-width: 2500px; height: 80px;}
+#logo{border:3px solid #73AD21; max-width: 2500px; height: 100px;}
+#content{border:3px solid #73AD21; max-width: 2500px; height: 500px; }

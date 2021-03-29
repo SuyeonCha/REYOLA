@@ -1,0 +1,9 @@
+@charset=UTF-8;
+body{background-color: rgb(17, 13, 49); height: 100%; width: 100%; text-align:center; color:white;}
+div{border-left:0px; border-right:0px;}
+.tt{border-top:3px solid #ff0000; border-bottom:1px solid #ff0000; max-width: 1000px; height:160px; }
+.cm{border-bottom:1px solid #ffff00; max-width: 1000px; height:550px;}
+.tit{padding:26px 0px 0px 30px; float:left;}
+h1{font-size:26pt; align:left; padding:10px 0px 0px 6px;}
+.na{padding:10px 0px 5px 0px; float:left;}
+.com{ float:left;  padding:26px 0px 0px 30px; font-size:10pt; align:left;}

@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="Share.shareDAO" %>
+<%@ page import="java.io.PrintWriter" %>
+<% request.setCharacterEncoding("UTF-8"); %>
+<jsp:useBean id="Share" class="Share.share" scope="page"/>
+<jsp:setProperty name="Share" property="nickname" />
+<jsp:setProperty name="Share" property="password" />
+<jsp:setProperty name="Share" property="title" />
+<jsp:setProperty name="Share" property="comment" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Write Action</title>
+<link href="Share_css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<%
+	
+	if(Share.getTitle() == null || Share.getComment() == null){
+		PrintWriter script = response.getWriter();
+		script.println("<script>");
+		script.println("alert('입력 안 된 사항이 있습니다.')");
+		script.println("history.back()");
+		script.println("</script>");
+	}
+	else{
+		shareDAO sharedao = new shareDAO();
+		int result = sharedao.write(Share.getNickname(), Share.getPassword(), Share.getTitle(), Share.getComment());
+		if(result ==-1){
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("alert('글쓰기에 실패했습니다.')");
+			script.println("history.back()");
+			script.println("</script>");
+		}else{
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("location.href='Y_interduce.jsp'");
+			script.println("</script>");
+		}
+	}
+	%>
+</body>
+</html>
