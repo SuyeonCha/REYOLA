@@ -22,5 +22,5 @@
 
  <h3>화면</h3>
  <div><img width="40%" src="https://user-images.githubusercontent.com/81402961/228588968-316b5eb2-32bf-42fb-bd0a-130d6a415785.png"/> <img width="40%" src="https://user-images.githubusercontent.com/81402961/228589127-a7c183e9-002e-4e00-8f0c-6444d72a49e3.png"/></div>
- <div><img width="40%" src="https://user-images.githubusercontent.com/81402961/228588314-f847bcec-e4ca-4373-b692-b430c7ae7776.PNG"/> <img width="40%" src="https://user-images.githubusercontent.com/81402961/228588394-d8db2273-4526-4ae1-9225-6f2a2c891e0b.PNGg"/></div>
+ <div><img width="40%" src="https://user-images.githubusercontent.com/81402961/228588314-f847bcec-e4ca-4373-b692-b430c7ae7776.PNG"/> <img width="40%" src="https://user-images.githubusercontent.com/81402961/228589779-70df384c-850c-4acf-a134-e8016763051d.png"/></div>
 <br>
