@@ -1,4 +1,5 @@
 # REYOLA
+<img width="14%" src="https://user-images.githubusercontent.com/81402961/228589970-27a5f659-74a6-4fad-8123-c6351fddbac1.png"/>
 <b>개발 언어 및 툴</b> : HTML, CSS, JS, JQUERY, JSP, MYSQL / Eclipse
 <br>
 <br> 
@@ -19,6 +20,7 @@
 
 <br>
 <br>
+
 
  <h3>화면</h3>
  <div><img width="40%" src="https://user-images.githubusercontent.com/81402961/228588968-316b5eb2-32bf-42fb-bd0a-130d6a415785.png"/> <img width="40%" src="https://user-images.githubusercontent.com/81402961/228589127-a7c183e9-002e-4e00-8f0c-6444d72a49e3.png"/></div>
